@@ -49,7 +49,18 @@ Code and data are in the "case study\3TrainTestAttribute+Embedding" directory
 ```
 python attribute+manner_casestudy.py
 ```
+### Test individual types of interactions
+This can be regarded as a link prediction problem on MAN. 
+Evaluating the performance of the proposed method for a specific interaction (e.g., a protein-protein interactions) can be done as follows.
+```
+1. Remove the protein-protein interaction pairs (links) from molecular association network as training set. 
+(Just comment out the csv file name  corresponding to the type of interaction to be tested (for example: PPI.csv) when reading all the associations to build the network.)
 
+2. Training the proposed MMI-Pred model using training set.
+
+3. Using protein-protein interaction pairs as the test set to test the performance of the model.
+
+```
 ### Requirements
 ```python
 openne
