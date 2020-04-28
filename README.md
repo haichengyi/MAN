@@ -44,7 +44,7 @@ Classifier comparison
 # Run the following command in the folder of each classifier
 python attribute+manner.py 
 ```
-##### Case study
+##### case study
 Code and data are in the "case study\3TrainTestAttribute+Embedding" directory
 ```
 python attribute+manner_casestudy.py
