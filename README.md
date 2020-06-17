@@ -73,6 +73,6 @@ scikit-learn==0.19.0
 ```
 ### Citation:
 ```
-Ready soon
+Yi, H.-C. et al. Learning representations of molecules to predict intermolecular interactions by constructing a large-scale heterogeneous molecular association network. iScience, doi:10.1016/j.isci.2020.101261.
 ```
 Contact: haichengyi#gmail.com
