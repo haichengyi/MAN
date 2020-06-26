@@ -1,1 +1,0 @@
-python -m openne --method node2vec --input data/new/NewTrainName0.txt --graph-format edgelist --output vec_all0.txt --representation-size 64
