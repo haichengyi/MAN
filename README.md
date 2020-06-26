@@ -1,4 +1,3 @@
-# MMI-Pred
 Codes and data for the paper entitled "Learning representations to predict intermolecular interactions on large-scale heterogeneous molecular association network"
 ### Molecular Association Network：
 contains 8 kinds of molecules, 18 types of associations, 14,315 nodes, 114,150 molecular associations.  
@@ -16,6 +15,7 @@ gensim==3.0.1
 scikit-learn==0.19.0
 ```
 ### Citation:
-Yi, H.-C. et al. Learning representations to predict intermolecular interactions on large-scale heterogeneous molecular association network. iScience, doi:10.1016/j.isci.2020.101261.
-
+```
+Yi et al. Learning Representations to Predict Intermolecular Interactions on Large-Scale Heterogeneous Molecular Association Network. iScience 2020;23(7):101261.
+```
 Contact: haichengyi#gmail.com
