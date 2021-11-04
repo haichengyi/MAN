@@ -21,7 +21,7 @@ def StorFile(data, fileName):
 #     return
 
 def save_txt(data, fileName):
-    file = open(fileName, "a")
+    file = open(fileName, "w")
     for i in range(len(data)):
         s = str(data[i]).replace('[', '').replace(']', '')  # 去除[],这两行按数据不同，可以选择
         s = s.replace("'",'').replace(',','') + '\n'
